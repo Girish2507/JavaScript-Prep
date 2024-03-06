@@ -18,7 +18,7 @@ null => 0
 
 let isLoggedIn = "abc";
 let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn);
+// console.log(booleanIsLoggedIn);
 
 /*
 1=>true;
@@ -29,5 +29,26 @@ console.log(booleanIsLoggedIn);
 
 let someNumber = 33
 let stringNum = String(someNumber)
-console.log(stringNum);
-console.log(typeof stringNum);
+// console.log(stringNum);
+// console.log(typeof stringNum);
+
+// ***********************Operations**************************
+
+let value = 3;
+let negValue =-value;
+// console.log(negValue);
+
+
+let str1 = "Hello"
+let str2= " Girish"
+
+str3 = str1+str2;
+// console.log(str3);
+
+// console.log("1"+2);
+// console.log(1+"2");
+// console.log("1"+2+2);
+// console.log(1+2+"2");
+
+console.log(+true);
+console.log(+""); // not a good practise to write this type of the code as this would be confusing
