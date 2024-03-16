@@ -43,3 +43,33 @@ let details = {
 const myFunction = function(){
     console.log("This is myFunction and my typeof is called object-function");
 }
+
+// ======================================================================================================
+
+// Stack and Heap Memory
+
+/*
+All the primitive types uses stack memory.
+Non-primitive types uses heap memory.
+*/
+
+let myName ="Girish"
+
+let anotherName = myName
+anotherName ="Masali"
+
+console.log(anotherName);
+console.log(myName);
+
+
+let userOne ={
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "user2@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
